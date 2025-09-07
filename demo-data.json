@@ -1,0 +1,124 @@
+{
+  "enterprise": {
+    "application": {
+      "name": "Enterprise JSON Editor",
+      "version": "1.0.0",
+      "description": "Professional-grade JSON editor for enterprise environments",
+      "author": "Development Team",
+      "license": "ISC",
+      "repository": "https://github.com/enterprise/json-editor",
+      "homepage": "https://json-editor.enterprise.com"
+    },
+    "features": {
+      "core": [
+        "Dual view modes (Tree + Code)",
+        "Real-time synchronization",
+        "Advanced JSON validation",
+        "Auto-save functionality"
+      ],
+      "ui": [
+        "Professional design",
+        "Light/dark themes",
+        "Responsive layout",
+        "Accessibility compliance"
+      ],
+      "developer": [
+        "Smart search",
+        "Copy operations",
+        "File operations",
+        "Context menus"
+      ],
+      "customization": [
+        "Configurable settings",
+        "Split pane resizing",
+        "Keyboard shortcuts",
+        "Performance optimization"
+      ]
+    },
+    "technology": {
+      "frontend": {
+        "framework": "React 18",
+        "buildTool": "Vite",
+        "styling": "CSS Custom Properties",
+        "icons": "Lucide React"
+      },
+      "editors": {
+        "tree": "JSONEditor",
+        "code": "Monaco Editor",
+        "syntax": "JSON with highlighting",
+        "validation": "Real-time parsing"
+      },
+      "dependencies": {
+        "core": ["react", "react-dom"],
+        "ui": ["lucide-react", "react-hot-toast"],
+        "editors": ["@monaco-editor/react", "jsoneditor"],
+        "utilities": ["clsx", "react-split-pane"]
+      }
+    },
+    "performance": {
+      "benchmarks": {
+        "small": "<50ms render time (<1KB)",
+        "medium": "<200ms render time (1-100KB)",
+        "large": "<1s render time (100KB-1MB)",
+        "memory": "<50MB typical usage"
+      },
+      "optimizations": [
+        "Lazy loading",
+        "Memoization",
+        "Virtual scrolling",
+        "Debounced search"
+      ]
+    },
+    "security": {
+      "features": [
+        "Input validation",
+        "XSS prevention",
+        "File type restrictions",
+        "Secure storage"
+      ],
+      "compliance": [
+        "WCAG 2.1 AA",
+        "GDPR ready",
+        "SOC 2 compliant",
+        "Enterprise security"
+      ]
+    },
+    "deployment": {
+      "environments": {
+        "development": "localhost:5173",
+        "staging": "staging.json-editor.enterprise.com",
+        "production": "json-editor.enterprise.com"
+      },
+      "requirements": {
+        "node": "16+",
+        "npm": "8+",
+        "browser": "Chrome 90+, Firefox 88+, Safari 14+"
+      }
+    },
+    "metadata": {
+      "created": "2024-08-17T14:50:00.000Z",
+      "lastModified": "2024-08-17T14:50:00.000Z",
+      "buildNumber": "2024.8.17.1",
+      "environment": "development",
+      "features": {
+        "experimental": false,
+        "beta": false,
+        "stable": true
+      }
+    },
+    "support": {
+      "channels": {
+        "documentation": "https://docs.json-editor.enterprise.com",
+        "issues": "https://github.com/enterprise/json-editor/issues",
+        "discussions": "https://github.com/enterprise/json-editor/discussions",
+        "email": "support@json-editor.enterprise.com"
+      },
+      "enterprise": {
+        "priority": true,
+        "customization": true,
+        "training": true,
+        "sla": "99.9% uptime"
+      }
+    }
+  }
+}
